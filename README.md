@@ -29,12 +29,13 @@ This is a user-friendly **Weather App** built with ReactJS. It provides real-tim
 ![Search Screenshot]()
 
 ### 2. **Current Weather And Weekly Forecast**
-![Current Weather Screenshot](Screenshot 2024-11-28 181713.png)
+![Current Weather Screenshot](weatherforcast.png)
+
 
 ### 3. **Postman**
-![Weekly Forecast Screenshot](Screenshot 2024-11-28 182113.png)
+![Postman Screenshot](postman.png)
 
-*(Replace the `path_to_*.png` with actual file paths of your screenshots)*
+
 
 ---
 
