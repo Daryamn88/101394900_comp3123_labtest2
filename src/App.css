@@ -1,38 +1,98 @@
-.App {
+/* General Styles */
+.weather-app {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  background: linear-gradient(to bottom, #1e3c72, #2a5298);
+  min-height: 100vh;
+  padding: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header h1 {
+  font-size: 3rem;
+  font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Search Bar */
+.search-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.search-container input {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  width: 300px;
+}
+
+.search-container button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
   color: white;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.search-container button:hover {
+  background-color: #45a049;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Current Weather */
+.current-weather {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.current-weather h2 {
+  font-size: 2rem;
+}
+
+.current-weather h1 {
+  font-size: 4rem;
+  margin: 10px 0;
+}
+
+/* Weather Details */
+.weather-details {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  text-align: left;
+  font-size: 1rem;
+}
+
+/* Weekly Forecast */
+.forecast-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.forecast-item {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+  width: 80px;
+  text-align: center;
+}
+.search-container input {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  width: 300px;
+  color: black; 
+  background-color: white; /* Ensure the input background is white */
 }
