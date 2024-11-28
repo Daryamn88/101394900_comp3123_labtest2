@@ -25,8 +25,6 @@ This is a user-friendly **Weather App** built with ReactJS. It provides real-tim
 ---
 
 ## Screenshots
-### 1. **Search Page**
-![Search Screenshot]()
 
 ### 2. **Current Weather And Weekly Forecast**
 ![Current Weather Screenshot](weatherforcast.png)
@@ -50,4 +48,4 @@ This is a user-friendly **Weather App** built with ReactJS. It provides real-tim
 ## Setup and Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your_github_username/your_repository_name.git
+   git clone https://github.com/Daryamn88/101394900_comp3123_labtest2.git
